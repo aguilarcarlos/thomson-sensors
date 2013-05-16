@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="utf-8"/>
+	<title>Working...</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<style type="text/css">
+		body{
+			background-color: black;
+			color:white;
+			font-family: 'helvetica', arial;
+			font-size: 16px;
+			width:100%;
+			height:100%;
+			padding:0;
+			margin:0;
+			background-image: url(bg.jpg);
+			position: absolute;
+		}
+		#box {
+			width:800px;
+			margin:0 auto;
+			text-align: center;
+			position: relative;
+			top:110px;
+		}
+		#box img{
+			opacity: .6;
+			transition:all 1s;
+			-webkit-transition:all 1s;
+			-o-transition:all 1s;
+			-moz-transition:all 1s;
+			-ms-transition:all 1s;
+		}
+		#box img:hover{
+			opacity: 1;
+		}
+		#box h1{
+			font-size: 4em;
+			text-shadow:1px 1px 10px rgba(0,0,0,1);
+			transition:all 1s;
+			-webkit-transition:all 1s;
+			-o-transition:all 1s;
+			-moz-transition:all 1s;
+			-ms-transition:all 1s;
+		}
+		#box h1:hover{
+			text-shadow:0px 0px 10px rgba(0,183,255,1);
+		}
+		#box-progress{
+			border: 2px solid white;
+			height:70px;
+			padding:3px;
+			border-radius:8px;
+		}
+		#progress{
+			height:100%;
+			border-radius:2px;
+			width:1%;
+			background:-moz-linear-gradient(#a00303, #660202);
+		  	background:-o-linear-gradient(#a00303, #660202);
+		  	background:-webkit-linear-gradient(#1B7EE0, #013263);
+		  	background:-ms-linear-gradient(#a00303, #660202);
+		  	filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#a00303,endColorStr=#660202);
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<a href="index.html" title="WThomson"><img src="logo.png" alt="wThomson"/></a>
+		<p>At W-Thomson we are working to offer the better service. Coming soon!</p>
+		<h1 id="porcent"></h1>
+		<div id="box-progress">
+			<div id="progress">
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+
+		var porcent = 85;
+
+		document.getElementById("porcent").innerHTML = porcent + "% completed";
+
+		$(document).ready(function(){
+			$("#progress").animate({
+				width: "85%"
+			}, 2000);
+		});
+	</script>
+	</body>
+</html>

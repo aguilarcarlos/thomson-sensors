@@ -1,0 +1,24 @@
+
+--- Logging started at  ---
+
+RX -416 : CW (2012-11-28 16:59Z): *E SEN I E IT I E H 5 E 
+TX -416 : CW (2012-11-28 17:00Z): HOLA CHUY
+TX -416 : CW (2012-11-28 17:00Z):  DE   BTU   DE  K
+
+RX -416 : CW (2012-11-28 17:00Z): R I T 5 
+TX -1232 : CW (2012-11-28 17:00Z): HOLA
+TX -1232 : CW (2012-11-28 17:00Z):  DE   BTU   DE  K
+
+RX -1072 : CW (2012-11-28 17:00Z): * A E III I 4EEE E E T E
+TX -1048 : CW (2012-11-28 17:00Z): HLAAAA
+TX -1048 : CW (2012-11-28 17:00Z):  DE   BTU   DE  K
+
+RX -1048 : CW (2012-11-28 17:01Z): E H * E * T E E I R EE I H E I E UEE L 5E T T I RE TIH S N E SET HI 
+--- Logging started at  ---
+
+RX -1048 : CW (2012-11-28 17:02Z): N* *E E E N EI D HE* E S * *I 
+TX -1048 : CW (2012-11-28 17:03Z): HOLA
+TX -1048 : CW (2012-11-28 17:03Z):  DE   B
+--- Logging stopped at  ---
+
+TX 1048 : CW (2012-11-28 17:39Z): T
