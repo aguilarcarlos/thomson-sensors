@@ -48,7 +48,7 @@
     
     <?php include 'includes/menu.php'; ?>
 
-    <div id="gallery">
+    <!--<div id="gallery">
       <div class="slider-wrapper theme-default">
         <div id="slider" class="nivoSlider">
             <a href="index.php"><img src="gallery/1.jpg" data-thumb="gallery/imagine.jpg" data-transition="slideInLeft" alt="Imagine" title="To create something great, you need imagine..." /></a>
@@ -56,7 +56,7 @@
             <img src="gallery/3.jpg" data-thumb="gallery/st.jpg" data-transition="slideInLeft" alt="Std" title="Statics on real time..." />
          </div>
       </div>
-    </div>
+    </div>-->
     <div id="main" role="main">
       <section id="articles">
         <h2>Bienvenido a WThomson &reg;</h2>
@@ -92,16 +92,6 @@
             <?php //include 'includes/lecturas.php'; ?>
         </article>--> 
       </section>
-      <aside id="sideBar">
-        <h2>Municipios de Colima</h2>
-        <hr />
-        <p>
-          Las temperaturas actuales son mosradas a continuación para mayor visualización de un municipio
-          en especfíco sólo es necesario dar clic sobre el nombre del municipio.
-        </p>
-        <span id="temp">  
-        </span>
-      </aside>
     </div>
     
     <?php include 'includes/footer.php'; ?>
