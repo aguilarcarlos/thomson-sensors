@@ -16,11 +16,7 @@
               La Universidad de Colima como un organismo social, y la misión pública autónoma:
             </p>
             <p>
-              Para contribuir a la transformación de la sociedad mediante la formación integral 
-              de los graduados, profesionales, científicos y artistas de excelencia y fuerte 
-              impulso para la creación, ejecución, conservación y difusión del conocimiento 
-              científico, el desarrollo tecnológico y las manifestaciones del arte y la cultura, 
-              dentro de un marco institucional marco de transparencia y rendición de cuentas oportuna.
+              Lorem ipsum.
             </p>
         </article>
         <article>
