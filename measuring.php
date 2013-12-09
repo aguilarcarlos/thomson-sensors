@@ -39,7 +39,7 @@
   <link rel="stylesheet" type="text/css" href="js/mylibs/default/default.css">
   <link rel="stylesheet" type="text/css" href="js/mylibs/nivo-slider.css">
   <!-- end CSS-->
-  <link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css' />
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
   <!-- All JavaScript at the bottom, except for Modernizr / Respond.
@@ -57,8 +57,6 @@
 
   <div id="container">
     <?php include 'includes/header.php'; ?>
-
-    <div class="lineRed"></div>
     
     <?php include 'includes/menu.php'; ?>
 
@@ -94,7 +92,7 @@
                   <th>Fecha y Hora</th>
                   <th>Temperatura</th>
                   <th>Luminosidad</th>
-                  <th>Municipio</th>
+                  <th>Acciones</th>
                 </thead>
                 <tbody>
                 <?php  
@@ -132,9 +130,9 @@
           <hr />
           <article>
             <p>
-              La captura de las temperaturas es procesada y presentada de manera
-              legible en tablas. Si requieres de observar cada municipio sólo necesitas
-              dar clic sobre el municipio que necesitas ver.
+              Hola usuario DEMO, la captura de las temperaturas es procesada y presentada de manera
+              legible en tablas. Si deseas cerrar sesión de clic aquí. <a href="index.php" title="Logout"> Salir
+            </a>
             </p>
             <p>
               <a class="link" href="maps.php" title="Ver sobre el mapa">Ver en el Mapa...</a>
@@ -151,7 +149,7 @@
                   <th>Fecha y Hora</th>
                   <th>Temperatura</th>
                   <th>Luminosidad</th>
-                  <th>Municipio</th>
+                  <th>Acciones</th>
                 </thead>
                 <tbody>
                 <?php  
@@ -184,16 +182,6 @@
         <?php }?>
 
       </section>
-      <aside id="sideBar">
-        <h2>Municipios de Colima</h2>
-        <hr />
-        <p>
-          Las temperaturas actuales son mosradas a continuación para mayor visualización de un municipio
-          en especfíco sólo es necesario dar clic sobre el nombre del municipio.
-        </p>
-        <span id="temp">  
-        </span>
-      </aside>
     </div>
     
     <?php include 'includes/footer.php'; ?>

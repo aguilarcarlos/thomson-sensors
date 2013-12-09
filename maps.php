@@ -1,3 +1,9 @@
+<?php 
+  session_start();
+  if(isset($_SESSION['user']) != 'demo'){
+    header("Location: login.php");
+  }
+?>
 <!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -27,7 +33,7 @@
   <link rel="stylesheet" type="text/css" href="js/mylibs/default/default.css">
   <link rel="stylesheet" type="text/css" href="js/mylibs/nivo-slider.css">
   <!-- end CSS-->
-  <link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css' />
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
   <!-- All JavaScript at the bottom, except for Modernizr / Respond.
@@ -50,8 +56,6 @@
   <div id="container">
 
     <?php include 'includes/header.php'; ?>
-
-    <div class="lineRed"></div>
 
     <?php include 'includes/menu.php'; ?>
 

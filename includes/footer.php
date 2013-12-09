@@ -15,9 +15,6 @@
             <p> 
               La Universidad de Colima como un organismo social, y la misión pública autónoma:
             </p>
-            <p>
-              Lorem ipsum.
-            </p>
         </article>
         <article>
             <h3>Follow Us</h3>

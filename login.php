@@ -1,5 +1,6 @@
-<?php include 'includes/conexion.php'; ?>
+<!doctype html>
 <head>
+  <title>Login</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <style type="text/css">
 body
@@ -42,19 +43,20 @@ body
    </style>
 
 </head>
-   
+<body>
   <div id = "contenedor">
     <div class="well" >
        <div id="cab"><h3> LOGIN </h3></div>
       <div id="centrar">
-        <form action = "graphs.php" method = "post">  
+        <form action="includes/valida.php" method="post">  
            <b>Nombre</b>:      
            <input name = "Nombre" type="text" class="span3" id="inputUsuario" placeholder="User"><br />
            <b>Contraseña</b>:
            <input name="Pass" type="password" class="span3" id="inputPassword" placeholder= "Password">
-           <button type="submit" class="btn btn-info">Login</button><font size="1" color="blue"> <a href="#" <u>Olvidaste tu contraseña?</u></a></font>
-         
+           <button type="submit" class="btn btn-info">Login</button><font size="1" color="blue"> <a href="#" <u>Olvidaste tu contraseña?</u></a></font>    
         </form>
       </div>
     </div>
   </div>
+</body>
+</html>

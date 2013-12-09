@@ -64,6 +64,7 @@
         <article>
 
           <h4>¿Qué es WThomson&reg;?</h4>
+          <img src="img/image1.jpg" alt="Ingenieros" class="float-left" width="280" height="170" />
           <p>
             WThomson&reg; está desarrollado para monitorear 
             temperaturas y luminosidad, esto mediante dos sensores que se encuentran 
@@ -75,12 +76,12 @@
             informados respecto las condiciones climáticas para el uso adecuado de 
             técnicas que permitan evitar pérdidas en su productividad. No debemos dejar 
             de lado la parte amigable de este sitio web, donde ponemos a su disposición 
-            las <a class="link" href="graphs.php" title="Graphs">gráficas</a> y 
-            <a class="link" href="measuring.php" title="Measuring">tablas</a> 
-            correspondientes que necesitas conocer respecto a 
+            las gráficas y tablas correspondientes que necesitas conocer respecto a 
             las condiciones climáticas del municipio.
           </p>
+
           <h3>¿Cómo funciona WThomson&reg;?</h3>
+          <img src="img/image2.jpg" alt="Ingenieros" class="float-right" width="320" />
           <p>
             La medición  y la ubicación de donde se encuentra el dispositivo es visualizada 
             a través de un display y es transmitida en código morse  por frecuencia modulada 

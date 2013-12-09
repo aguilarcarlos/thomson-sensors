@@ -45,8 +45,6 @@
 
   <div id="container">
     <?php include 'includes/header.php'; ?>
-
-    <div class="lineRed"></div>
     
     <?php include 'includes/menu.php'; ?>
 
@@ -100,16 +98,6 @@
             <?phpphp //include 'includes/lecturas.php'; ?>
         </article> -->
       </section>
-      <aside id="sideBar">
-        <h2>Municipios de Colima</h2>
-        <hr />
-        <p>
-          Las temperaturas actuales son mosradas a continuación para mayor visualización de un municipio
-          en especfíco sólo es necesario dar clic sobre el nombre del municipio.
-        </p>
-        <span id="temp">  
-        </span>
-      </aside>
     </div>
     
     <?php include 'includes/footer.php'; ?>
